@@ -13,8 +13,7 @@ import Typography from "@material-ui/core/Typography";
 //       margin: 'auto'
 //     }
 //   });
-
-function CardDemo() {
+export default (props) => {
   //const classes = useStyles();
 
   return (
@@ -22,11 +21,10 @@ function CardDemo() {
       <Card style={{ maxWidth: 345, margin: "auto", marginTop: 20 }}>
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Lizard
+            {props.block.title}
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
+            {props.block.body2}
           </Typography>
         </CardContent>
         <CardActions>
@@ -40,6 +38,6 @@ function CardDemo() {
       </Card>
     </div>
   );
-}
+};
 
-export default CardDemo;
+//export default CardDemo;

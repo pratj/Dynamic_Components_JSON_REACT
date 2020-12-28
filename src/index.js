@@ -10,22 +10,31 @@ const data = {
       {
         _uid: "BUY6Drn9e1",
         component: "foo",
-        headline: "Foo"
+        headline: "SideBar"
       },
       {
         _uid: "gJZoSLkfZV",
         component: "bar",
-        title: "Bar"
+        title: "NavBar"
       },
       {
         _uid: "X1JAfdsZxy",
         component: "foo",
-        headline: "Another headline"
+        headline: "CheckOut"
       },
       {
         _uid: "X1JAfdsZqw",
         component: "cardDemo",
-        headline: "Another headline"
+        headline: "This is card",
+        title: "Motor Insuarance",
+        body2: "Buy Motor insurance here."
+      },
+      {
+        _uid: "X1JAfdsZqw",
+        component: "cardDemo",
+        headline: "This is card",
+        title: "Travel Insuarance",
+        body2: "Buy Travel insurance here."
       }
     ]
   }
@@ -34,7 +43,7 @@ const data = {
 function App() {
   return (
     <div className="App">
-      <h1>Hello React</h1>
+      <h1>Insurance Demo</h1>
       {data.content.body.map((block) => Components(block))}
     </div>
   );

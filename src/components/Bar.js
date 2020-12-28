@@ -1,9 +1,9 @@
 import React from "react";
 
-export default props => (
+export default (props) => (
   <div className="bar">
     <hr />
-    Hi I'm a Bar component with the title:
+    NavBar
     <h2>{props.block.title}</h2>
   </div>
 );

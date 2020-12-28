@@ -4,8 +4,8 @@ import Bar from "./components/Bar";
 import CardDemo from "./components/CardDemo";
 
 const Components = {
-  foo: Foo,
   bar: Bar,
+  foo: Foo,
   cardDemo: CardDemo
 };
 
