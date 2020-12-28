@@ -21,6 +21,11 @@ const data = {
         _uid: "X1JAfdsZxy",
         component: "foo",
         headline: "Another headline"
+      },
+      {
+        _uid: "X1JAfdsZqw",
+        component: "cardDemo",
+        headline: "Another headline"
       }
     ]
   }
@@ -30,7 +35,7 @@ function App() {
   return (
     <div className="App">
       <h1>Hello React</h1>
-      {data.content.body.map(block => Components(block))}
+      {data.content.body.map((block) => Components(block))}
     </div>
   );
 }

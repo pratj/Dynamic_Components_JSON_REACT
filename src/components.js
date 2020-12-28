@@ -1,13 +1,15 @@
 import React from "react";
 import Foo from "./components/Foo";
 import Bar from "./components/Bar";
+import CardDemo from "./components/CardDemo";
 
 const Components = {
   foo: Foo,
-  bar: Bar
+  bar: Bar,
+  cardDemo: CardDemo
 };
 
-export default block => {
+export default (block) => {
   if (typeof Components[block.component] !== "undefined") {
     return React.createElement(Components[block.component], {
       key: block._uid,
