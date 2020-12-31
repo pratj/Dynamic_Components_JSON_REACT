@@ -7,21 +7,21 @@ import "./styles.css";
 const data = {
   content: {
     body: [
-      {
-        _uid: "BUY6Drn9e1",
-        component: "foo",
-        headline: "SideBar"
-      },
-      {
-        _uid: "gJZoSLkfZV",
-        component: "bar",
-        title: "NavBar"
-      },
-      {
-        _uid: "X1JAfdsZxy",
-        component: "foo",
-        headline: "CheckOut"
-      },
+      // {
+      //   _uid: "BUY6Drn9e1",
+      //   component: "foo",
+      //   headline: "SideBar"
+      // },
+      // {
+      //   _uid: "gJZoSLkfZV",
+      //   component: "bar",
+      //   title: "NavBar"
+      // },
+      // {
+      //   _uid: "X1JAfdsZxy",
+      //   component: "foo",
+      //   headline: "CheckOut"
+      // },
       {
         _uid: "X1JAfdsZqw",
         component: "cardDemo",
@@ -30,11 +30,18 @@ const data = {
         body2: "Buy Motor insurance here."
       },
       {
-        _uid: "X1JAfdsZqw",
+        _uid: "X1JAfdsZqe",
         component: "cardDemo",
         headline: "This is card",
         title: "Travel Insuarance",
         body2: "Buy Travel insurance here."
+      },
+      {
+        _uid: "X1JAfdsZqr",
+        component: "cardDemo",
+        headline: "This is card",
+        title: "Health Insuarance",
+        body2: "Buy Health insurance here."
       }
     ]
   }
